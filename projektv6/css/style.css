@@ -1,0 +1,78 @@
+body, html{
+   background-image: url("background.png");
+ height: 100%;
+   }
+div{
+   font-family: 'Ubuntu',  sans-serif;
+}
+ul{
+      list-style-type: none;
+}
+ul > li{
+   margin-right: 30px;
+}
+#lewo{
+   display:none;
+   padding-left: 0px !important;
+   position: relative;
+}
+#header{
+   text-align: center;
+   font-size: 40px;
+   color:white;
+}
+#prawo{
+   color:black;
+   background-image: url("background2.png");
+   padding-top: 15px;
+   position: relative;
+   height:100%;
+}
+.row{
+   margin:0px !important;
+}
+#formstyl{
+   text-align: center !important;
+}
+a{
+   text-decoration: none;
+}
+#koszyk{
+   position: fixed;
+   margin-left: 92%;
+   margin-bottom: 50% !important;
+   top:31% !important;
+   background-color: black;
+}
+.linkzdj{
+   max-width: 300px !important;
+   max-height: 300px !important;
+   height:auto !important;
+   border:2px solid black !important;
+   border-radius: 20px;
+}
+.info{
+   padding-left: 5%;
+   padding-top: 5%;
+   float:left;
+   font-size: 20px;
+}
+.zdjecie{
+   float:left;
+}
+#ez{
+   margin:10px !important;
+}
+#stopka{
+   color:white !important;
+   background-color:#222 !important;
+   text-align: center !important;
+}
+.cointainer{
+
+   margin-bottom: -50px !important;
+}
+.footer,
+.push {
+  height: 50px;
+}
